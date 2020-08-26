@@ -1,0 +1,316 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: corbel;
+	background-color: #F0F0F0;
+}
+
+h1 {
+	font-size: 130px;
+	font-weight: normal;
+	color: #686868;
+	line-height: 180px;
+}
+
+h2 {
+	font-size: 30px;
+	color: 	#303030;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*1 секция*/
+.logo {
+	font-size: 25px;
+	font-weight: 900;
+	float: left;
+	margin-left: 30px;
+}
+
+.banner {
+	background: url(../img/main.png) no-repeat center left / cover;
+	height: 800px;
+	margin: 15px;
+}
+
+
+.navbar {
+	padding-top: 30px;
+	font-weight: bold;
+}
+.menu {
+	float: right;
+	display: none;
+	margin-right: 70px;
+	letter-spacing: 1px;
+}
+.menu {
+	float: right;
+	margin-right: 70px;
+	letter-spacing: 1px;
+}
+
+.menu li {
+	display: block;
+}
+
+.menu a:hover{
+	color: #C0C0C0;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #C0C0C0;
+}
+
+
+.menu a {
+	text-decoration: none;
+	color: black;
+	text-decoration: uppercase;
+	margin-right: 50px;
+}
+
+nav {
+	float: right;
+	margin-right: 70px;
+	letter-spacing: 1px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a:hover{
+	color: #C0C0C0;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #C0C0C0;
+}
+
+nav li:last-child{
+	width: 80px;
+	border: 1px solid black;
+	padding: 10px 25px 10px 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	text-decoration: uppercase;
+	margin-right: 50px;
+}
+/* Текст первой секции */
+header {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 170px;
+	margin-left: 35px;
+}
+
+header:after {
+	display: block;
+	width: 60px;
+	height: 5px;
+	background-color: #696969;
+	content: "";
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+/*2 секция*/
+.latest {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.latest:after {
+	display: block;
+	width: 60px;
+	height: 5px;
+	background-color: #202020;
+	content: "";
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.box {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.box img {
+  width: 350px;
+  height: 200px;
+  box-shadow: 4px 5px 15px black;
+  display: block;
+}
+
+.box span {
+  display: block;
+  background-color: white;
+  height: 100px;
+  margin: auto;
+  padding-top: 50px;
+  box-shadow: 4px 5px 20px black;
+  font-size: 20px;
+  width: 350px;
+}
+
+.latest_image {
+        text-align: center;
+    }
+
+.box span:before {
+	display: block;
+	width: 40px;
+	height: 2px;
+	background-color: #202020;
+	content: "";
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+
+/*3 секция */
+.about {
+	margin-top: 50px;
+	height: 700px;
+}
+.about img {
+	width: 50%;
+	height: 700px;
+}
+.about .about_text {
+	float: right;
+	background-color: white;
+	width: 50%;
+	height: 700px;
+	text-align: center;
+}
+.about_text span{
+	padding-top: 35px; 
+	display: block;
+	text-align: center;
+
+}
+.about_text h2{
+	padding-top: 220px;
+}
+.about_text h2:after{
+	display: block;
+	width: 40px;
+	height: 2px;
+	background-color: #202020;
+	content: "";
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+
+/*4 секция*/
+.subscribe .container {
+	display: inline-block;
+	background-color: #FADADD;
+	height: 600px;
+}
+.subscribe_text {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.subscribe_text h3 {
+	padding-top: 10px;
+}
+input[type=email] {
+	background-color: #d9f3f7;
+	outline: none;
+	border: 0px;
+	margin-top: 30px;
+	border-radius: 3px;
+	width: 500px;
+	height: 75px;
+	font-size: 30px;
+	padding-left: 20px;
+	opacity: 0.8;
+}
+
+input::placeholder {
+	padding-left: 5px;
+	font-size: 20px;
+	opacity: 0.8;
+}
+
+input[type=submit] {
+	background-color: #FADADD;
+	font-size: 15px;
+	font-weight: bold;
+	width: 130px;
+	height: 50px;
+	margin-top: 30px;
+	border: 1px solid black;
+	padding: 10px;
+	letter-spacing: 5px;
+}
+input[type=submit]:hover {
+	background-color: pink;
+}
+
+
+
+
+/*5 секция*/
+footer {
+	display: inline-block;
+	height: 200px;
+	width: 100%;
+}
+/*иконки*/
+.icons {
+	margin-top: 90px;
+	margin-left: 70px;
+}
+.icons li {
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+}
+/*текст*/
+.end {
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+.end li {
+	display: inline-block;
+}
+
+.end a:hover{
+	color: #C0C0C0;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #C0C0C0;
+}
+
+.end a {
+	text-decoration: none;
+	color: black;
+	text-decoration: uppercase;
+	margin-right: 50px;
+}

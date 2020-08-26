@@ -1,0 +1,169 @@
+.navbar [type='checkbox']{
+	display: none;
+}
+.navbar label.toggleMenu {
+	display: none;
+	cursor: pointer;
+	position: relative;
+}
+
+.navbar label.toggleMenu .fas {
+	position: absolute;
+	display: none;
+}
+/*Средние экраны*/
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
+ 	/*2 секция*/
+	.box img {
+		width: 190px;
+		height: 170px;
+	}
+	.box span {
+		width: 190px;
+	}
+	.box span:last-child{
+		margin-top: 0px;
+	}
+	.img3{
+		margin-top: 10px; 
+	}
+	/*3 секция*/
+	.about_text span {
+		font-size: 14px;
+	}
+	.about_of_us {
+		height: 100px;
+	}
+	.about .about_text{
+		height: 70%;
+	}
+	.about img{
+		height: 70%;
+	}
+	.about_text h2{
+	padding-top: 120px;
+	}
+	.end a {
+	margin-right: 20px;
+}
+}
+/*Телефоны*/
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	/*2 секция*/
+	.box {
+  		margin-right: 10px;
+  		margin-top: 100px;
+  		margin-left: 10px;
+  	}
+
+  	.box img {
+		width: 250px;
+		height: 170px;
+	}
+	.box span {
+		width: 250px;
+	}
+
+	/*3 секция*/
+	.about_text span {
+		font-size: 14px;
+	}
+	.about_of_us {
+		height: 80px;
+	}
+	.about .about_text{
+		height: 50%;
+		float: none;
+		width: 100%;
+	}
+	.about img{
+		height: 40%;
+		width: 100%;
+	}
+	.about_text h2{
+	padding-top: 10px;
+	}
+	.end a {
+	margin-right: 20px;
+
+}
+
+	/*4 секция*/
+	.subscribe {
+		margin-top: 470px;
+	}
+	input[type=email] {
+		width: 300px;
+		font-size: 20px;
+	}
+
+	/*5 секция*/
+	.icons {
+		margin-top: 50px;
+	}
+	.icons li {
+		float: none;
+		margin-top: 25px;
+		margin-left: 5%;
+	}
+	.end, .end li{
+		text-align: center;
+	display: block;
+	float: none;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+}
+
+/*Меню*/
+@media only screen and (max-width: 680px) {
+	/*5 секция*/
+	.icons {
+		margin-top: 50px;
+	}
+	.icons li {
+		float: none;
+		margin-top: 25px;
+		margin-left: 9%;
+	}
+	.end, .end li{
+		text-align: center;
+	display: block;
+	float: none;
+	margin-left: 5%;
+	margin-top: 20px;
+	}
+
+
+	/*Меню*/
+	.navbar {
+		overflow: hidden;
+	}
+	.navbar nav ul{
+		display: none;
+	}
+	.navbar label.toggleMenu {
+		display: block;
+		float: right;
+		margin-top: 10px;
+	}
+	input.toggleMenu:checked ~ ul {
+		display: block;
+		padding: 50px 50px 50px 50px;
+
+	}
+}
+
+
+/*Доп для меню*/
+@media only screen and (max-width: 582px){
+	input.toggleMenu:checked ~ ul {
+		margin-left: 200px;
+	}
+}
